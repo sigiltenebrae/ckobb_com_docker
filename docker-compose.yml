@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+    angular-service:
+        container_name: ckobb-com-angular
+        build: .
+        ports:
+            - "4200:4200"
